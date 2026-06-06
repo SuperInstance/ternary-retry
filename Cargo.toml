@@ -1,0 +1,7 @@
+[package]
+name = "ternary-retry"
+version = "0.1.0"
+edition = "2021"
+description = "Retry policy for GPU kernel execution with ternary outcome. {+1=success, 0=retryable, -1=permanent failure}. Exponential backoff, jitter, circuit breaking."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/ternary-retry"
